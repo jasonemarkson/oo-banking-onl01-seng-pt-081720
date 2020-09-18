@@ -29,6 +29,8 @@ class Transfer
       sender.balance += amount 
       receiver.balance -= amount
       self.status = "reversed"
+    else 
+      nil 
     end
   end
   
